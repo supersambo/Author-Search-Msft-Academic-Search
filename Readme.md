@@ -8,7 +8,7 @@ In order to use this:
 * Edit access_key.edit by filling in your own key and change the filename to access_key
 * Create a text file containing a list of authors (one per line) you want to query. Take `test.txt` as a reference if needed.
 * Run the script with the path to your input file as a command line argument e.g. like this 
-`python msft_api.py test.txt`
+`python query_authors.py test.txt`
 * The script will save the raw results as a single json file for each author to the `output/` directory
 
 - - - -
