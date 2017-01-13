@@ -10,7 +10,7 @@ In order to use this:
 * Run the script with the path to your input file as a command line argument e.g. like this `python msft_api.py test.txt`
 * The script will save the raw results as a single json file for each author to the `output/` directory
 
-
+- - - -
 ```
 Note that this is everything than sophisticated and does not handle api errors.
 If you run into API limits just stop the script or implement your own error handling.
