@@ -39,6 +39,8 @@ if not os.path.exists('output'):
 
 for name in names:
     name = re.sub('\n$', '', name.decode('utf-8')) #strip line breaks
+    name = re.sub('\r$', '', name.decode('utf-8')) #strip line breaks
+    name = re.sub('\m$', '', name.decode('utf-8')) #strip line breaks
     qname = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore') #replace special characters
     qname = qname.lower() #transform to lower case
     print 'Searching for ' + name + ' as >' + qname +'<'
